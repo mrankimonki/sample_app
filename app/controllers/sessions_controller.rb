@@ -5,7 +5,6 @@ class SessionsController < ApplicationController
 
   def create
       test = params[:session][:email]
-      logger.info "AJ HERE : #{params[:session][:email]}"
       user = User.authenticate(params[:session][:email],
 			       params[:session][:password])
       logger.info "AJ HERE(next): #{user}"
