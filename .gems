@@ -1,2 +1,4 @@
 rails --version 2.3.8
 sqlite3-ruby --version 1.2.5
+will_paginate --version 2.3.12
+faker
